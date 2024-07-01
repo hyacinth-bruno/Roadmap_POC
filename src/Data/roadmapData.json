@@ -1,0 +1,334 @@
+[
+  {
+    "department": "R&P",
+    "streams": [
+      {
+        "streamLabel": "eRx",
+        "groups": [
+          {
+            "groupLabel": "RC-1",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "WSPORT-1",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-10"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-03-10"
+                    },
+                    "barType": "completed"
+                  },
+                  {
+                    "itemLabel": "WSPORT-2",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-02-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-04-01"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              },
+              {
+                "laneLabel": "Lane 2",
+                "items": [
+                  {
+                    "itemLabel": "WSPORT-3",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-15"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-05-01"
+                    },
+                    "barType": "inProgress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "groupLabel": "RC-2",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "WSPORT-4",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-02-10"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-04-15"
+                    },
+                    "barType": "completed"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "streamLabel": "Delivery",
+        "groups": [
+          {
+            "groupLabel": "RC-3",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "WSPORT-5",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-03-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-06-01"
+                    },
+                    "barType": "inProgress"
+                  },
+                  {
+                    "itemLabel": "WSPORT-6",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-04-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-07-01"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "Marketing",
+    "streams": [
+      {
+        "streamLabel": "Campaigns",
+        "groups": [
+          {
+            "groupLabel": "Q1 Campaigns",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Campaign-1",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-05"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-02-20"
+                    },
+                    "barType": "completed"
+                  },
+                  {
+                    "itemLabel": "Campaign-2",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-02-10"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-03-30"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "groupLabel": "Q2 Campaigns",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Campaign-3",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-04-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-06-30"
+                    },
+                    "barType": "inProgress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "streamLabel": "Social Media",
+        "groups": [
+          {
+            "groupLabel": "Content Creation",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Content-1",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-15"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-02-15"
+                    },
+                    "barType": "completed"
+                  },
+                  {
+                    "itemLabel": "Content-2",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-03-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-04-01"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "Sales",
+    "streams": [
+      {
+        "streamLabel": "Lead Generation",
+        "groups": [
+          {
+            "groupLabel": "Q1 Leads",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Lead-1",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-01"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-02-28"
+                    },
+                    "barType": "completed"
+                  },
+                  {
+                    "itemLabel": "Lead-2",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-03-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-04-30"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "groupLabel": "Q2 Leads",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Lead-3",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-04-01"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-06-30"
+                    },
+                    "barType": "inProgress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "streamLabel": "Customer Retention",
+        "groups": [
+          {
+            "groupLabel": "Retention Q1",
+            "lanes": [
+              {
+                "laneLabel": "Lane 1",
+                "items": [
+                  {
+                    "itemLabel": "Retention-1",
+                    "startEdge": {
+                      "type": "started",
+                      "date": "2024-01-10"
+                    },
+                    "endEdge": {
+                      "type": "finished",
+                      "date": "2024-03-10"
+                    },
+                    "barType": "completed"
+                  },
+                  {
+                    "itemLabel": "Retention-2",
+                    "startEdge": {
+                      "type": "estimated",
+                      "date": "2024-03-15"
+                    },
+                    "endEdge": {
+                      "type": "estimated",
+                      "date": "2024-06-01"
+                    },
+                    "barType": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+.card-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.header-row {
+  display: grid;
+  grid-template-columns: 2fr 3fr repeat(12, 1fr);
+  gap: 0;
+  padding: 8px 0;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-cell {
+  text-align: center;
+  border-right: 1px solid #ddd;
+  padding: 8px;
+  height: 100%;
+}
+
+.header-cell:last-child {
+  border-right: none;
+}
+
+.streams {
+  display: flex;
+  flex-direction: column;
+}
+
+.stream {
+  display: grid;
+  grid-template-columns: 2fr 3fr repeat(12, 1fr);
+  gap: 0;
+  align-items: stretch;
+  border-bottom: 1px solid #ddd;
+}
+
+.stream-label {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.stream-items {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd;
+  grid-column: span 1;
+  padding: 8px;
+}
+
+.month-cell {
+  border-right: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-cell:last-child {
+  border-right: none;
+}
+
+.group {
+  padding-left: 8px;
+}
+
+.group-header {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.items {
+  margin-left: 16px;
+}
+
+.item {
+  margin-bottom: 4px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 8px 0;
+}
+
+.card-actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.learn-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
